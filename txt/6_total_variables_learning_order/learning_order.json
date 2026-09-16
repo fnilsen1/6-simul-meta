@@ -1,0 +1,571 @@
+{
+  "description": "Greedy marginal-coverage order for classes with at most 6 total condition terms",
+  "all_eight_orientations": true,
+  "coverage_method": "2,000,000 uniformly sampled states; overlaps counted once",
+  "condition_complexity_definition": "sum of variable occurrences across both equations; repeated variables and coefficient magnitudes are counted repeatedly",
+  "condition_display": "four-variable conditions have two variables on each side; 'A to B' means the clockwise distance from dial A to dial B",
+  "class_count": 20,
+  "coverage_percentage": 44.39585,
+  "classes": [
+    {
+      "class": 4,
+      "best_pin_order": [
+        "ur",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "conditions": [
+        "d = c",
+        "l = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.450262,
+      "step": 1,
+      "marginal_percentage": 5.4637,
+      "cumulative_percentage": 5.4637
+    },
+    {
+      "class": 12,
+      "best_pin_order": [
+        "/",
+        "ul",
+        "R",
+        "UR",
+        "U",
+        "L"
+      ],
+      "conditions": [
+        "R to UR = c to l",
+        "U = C"
+      ],
+      "condition_variable_counts": [
+        4,
+        2
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.422384,
+      "step": 2,
+      "marginal_percentage": 4.76025,
+      "cumulative_percentage": 10.22395
+    },
+    {
+      "class": 41,
+      "best_pin_order": [
+        "ul",
+        "R",
+        "UR",
+        "/",
+        "DL",
+        "L"
+      ],
+      "conditions": [
+        "UL to U = R + l",
+        "d = c"
+      ],
+      "condition_variable_counts": [
+        4,
+        2
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 1,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.422379,
+      "step": 3,
+      "marginal_percentage": 4.2321,
+      "cumulative_percentage": 14.45605
+    },
+    {
+      "class": 33,
+      "best_pin_order": [
+        "dl",
+        "ul",
+        "DR",
+        "\\",
+        "UL",
+        "L"
+      ],
+      "conditions": [
+        "U = L",
+        "d to r = c to u"
+      ],
+      "condition_variable_counts": [
+        2,
+        4
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 0,
+      "d_moves": 2,
+      "transitions": 7,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.422595,
+      "step": 4,
+      "marginal_percentage": 4.08745,
+      "cumulative_percentage": 18.5435
+    },
+    {
+      "class": 46,
+      "best_pin_order": [
+        "ur",
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "R"
+      ],
+      "conditions": [
+        "c = d",
+        "UR to U = L + r"
+      ],
+      "condition_variable_counts": [
+        2,
+        4
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 1,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.422379,
+      "step": 5,
+      "marginal_percentage": 3.56215,
+      "cumulative_percentage": 22.10565
+    },
+    {
+      "class": 32,
+      "best_pin_order": [
+        "ur",
+        "ul",
+        "DR",
+        "\\",
+        "UL",
+        "U"
+      ],
+      "conditions": [
+        "L = U",
+        "c to r = l to u"
+      ],
+      "condition_variable_counts": [
+        2,
+        4
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 0,
+      "d_moves": 2,
+      "transitions": 7,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.422595,
+      "step": 6,
+      "marginal_percentage": 3.2901,
+      "cumulative_percentage": 25.39575
+    },
+    {
+      "class": 29,
+      "best_pin_order": [
+        "ur",
+        "\\",
+        "UL",
+        "DL",
+        "ul",
+        "R"
+      ],
+      "conditions": [
+        "U to R = C to D",
+        "d = c"
+      ],
+      "condition_variable_counts": [
+        4,
+        2
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 7,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.422149,
+      "step": 7,
+      "marginal_percentage": 2.71975,
+      "cumulative_percentage": 28.1155
+    },
+    {
+      "class": 13,
+      "best_pin_order": [
+        "ur",
+        "\\",
+        "UL",
+        "U",
+        "UR",
+        "R"
+      ],
+      "conditions": [
+        "U = C",
+        "l = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 8,
+      "marginal_percentage": 2.633,
+      "cumulative_percentage": 30.7485
+    },
+    {
+      "class": 30,
+      "best_pin_order": [
+        "dr",
+        "/",
+        "ul",
+        "R",
+        "UR",
+        "UL"
+      ],
+      "conditions": [
+        "d = l",
+        "U = C"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 9,
+      "marginal_percentage": 2.165,
+      "cumulative_percentage": 32.9135
+    },
+    {
+      "class": 26,
+      "best_pin_order": [
+        "ul",
+        "/",
+        "UR",
+        "DR",
+        "ur",
+        "L"
+      ],
+      "conditions": [
+        "U to L = C to D",
+        "d = c"
+      ],
+      "condition_variable_counts": [
+        4,
+        2
+      ],
+      "total_condition_variables": 6,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 7,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.422149,
+      "step": 10,
+      "marginal_percentage": 1.8573,
+      "cumulative_percentage": 34.7708
+    },
+    {
+      "class": 25,
+      "best_pin_order": [
+        "dl",
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "UR"
+      ],
+      "conditions": [
+        "U = C",
+        "d = r"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 11,
+      "marginal_percentage": 1.68005,
+      "cumulative_percentage": 36.45085
+    },
+    {
+      "class": 47,
+      "best_pin_order": [
+        "dl",
+        "UL",
+        "L",
+        "ur",
+        "\\",
+        "DR"
+      ],
+      "conditions": [
+        "U = L",
+        "d = r"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 2,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748943,
+      "step": 12,
+      "marginal_percentage": 1.3348,
+      "cumulative_percentage": 37.78565
+    },
+    {
+      "class": 11,
+      "best_pin_order": [
+        "ul",
+        "/",
+        "UR",
+        "U",
+        "UL",
+        "L"
+      ],
+      "conditions": [
+        "U = C",
+        "r = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 13,
+      "marginal_percentage": 1.32945,
+      "cumulative_percentage": 39.1151
+    },
+    {
+      "class": 3,
+      "best_pin_order": [
+        "ul",
+        "UR",
+        "/",
+        "DL",
+        "L",
+        "UL"
+      ],
+      "conditions": [
+        "d = c",
+        "r = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.450262,
+      "step": 14,
+      "marginal_percentage": 1.1403,
+      "cumulative_percentage": 40.2554
+    },
+    {
+      "class": 42,
+      "best_pin_order": [
+        "dr",
+        "L",
+        "DL",
+        "UR",
+        "/",
+        "ul"
+      ],
+      "conditions": [
+        "L = D",
+        "r = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 2,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748943,
+      "step": 15,
+      "marginal_percentage": 1.0776,
+      "cumulative_percentage": 41.333
+    },
+    {
+      "class": 8,
+      "best_pin_order": [
+        "ul",
+        "R",
+        "DR",
+        "\\",
+        "ur",
+        "L"
+      ],
+      "conditions": [
+        "C = D",
+        "d = c"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 16,
+      "marginal_percentage": 0.79585,
+      "cumulative_percentage": 42.12885
+    },
+    {
+      "class": 1,
+      "best_pin_order": [
+        "ur",
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "UR"
+      ],
+      "conditions": [
+        "d = r",
+        "d = c"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.037156,
+      "step": 17,
+      "marginal_percentage": 0.7868,
+      "cumulative_percentage": 42.91565
+    },
+    {
+      "class": 2,
+      "best_pin_order": [
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "conditions": [
+        "d = c",
+        "d = u"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 18,
+      "marginal_percentage": 0.6099,
+      "cumulative_percentage": 43.52555
+    },
+    {
+      "class": 10,
+      "best_pin_order": [
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "U",
+        "UR"
+      ],
+      "conditions": [
+        "U = C",
+        "r = c"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 19,
+      "marginal_percentage": 0.4394,
+      "cumulative_percentage": 43.96495
+    },
+    {
+      "class": 14,
+      "best_pin_order": [
+        "ul",
+        "R",
+        "UR",
+        "U",
+        "UL",
+        "\\"
+      ],
+      "conditions": [
+        "c = l",
+        "U = C"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "clock_sum_calculations": 0,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 20,
+      "marginal_percentage": 0.4309,
+      "cumulative_percentage": 44.39585
+    }
+  ]
+}

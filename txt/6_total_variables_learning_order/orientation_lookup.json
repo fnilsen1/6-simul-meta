@@ -1,0 +1,2124 @@
+{
+  "classes": [
+    {
+      "step": 1,
+      "class": 4,
+      "conditions": [
+        "d = c",
+        "l = u"
+      ],
+      "best_pin_order": [
+        "ur",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "UL",
+            "\\",
+            "DR",
+            "R",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "UR",
+            "/",
+            "DL",
+            "D",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "DR",
+            "\\",
+            "UL",
+            "L",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "DL",
+            "/",
+            "UR",
+            "U",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "ur",
+            "\\",
+            "dl",
+            "R",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "dr",
+            "/",
+            "ul",
+            "D",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "dl",
+            "\\",
+            "ur",
+            "L",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "ul",
+            "/",
+            "dr",
+            "U",
+            "dl"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "class": 12,
+      "conditions": [
+        "R to UR = c to l",
+        "U = C"
+      ],
+      "best_pin_order": [
+        "/",
+        "ul",
+        "R",
+        "UR",
+        "U",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "/",
+            "ul",
+            "R",
+            "UR",
+            "U",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "\\",
+            "ur",
+            "D",
+            "DR",
+            "R",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "/",
+            "dr",
+            "L",
+            "DL",
+            "D",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "\\",
+            "dl",
+            "U",
+            "UL",
+            "L",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "/",
+            "UR",
+            "R",
+            "ul",
+            "D",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "\\",
+            "DR",
+            "D",
+            "ur",
+            "L",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "/",
+            "DL",
+            "L",
+            "dr",
+            "U",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "\\",
+            "UL",
+            "U",
+            "dl",
+            "R",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "class": 41,
+      "conditions": [
+        "UL to U = R + l",
+        "d = c"
+      ],
+      "best_pin_order": [
+        "ul",
+        "R",
+        "UR",
+        "/",
+        "DL",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "R",
+            "UR",
+            "/",
+            "DL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "D",
+            "DR",
+            "\\",
+            "UL",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "L",
+            "DL",
+            "/",
+            "UR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "U",
+            "UL",
+            "\\",
+            "DR",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "R",
+            "ul",
+            "/",
+            "dr",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "D",
+            "ur",
+            "\\",
+            "dl",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "L",
+            "dr",
+            "/",
+            "ul",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "U",
+            "dl",
+            "\\",
+            "ur",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "class": 33,
+      "conditions": [
+        "U = L",
+        "d to r = c to u"
+      ],
+      "best_pin_order": [
+        "dl",
+        "ul",
+        "DR",
+        "\\",
+        "UL",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "dl",
+            "ul",
+            "DR",
+            "\\",
+            "UL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ul",
+            "ur",
+            "DL",
+            "/",
+            "UR",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "ur",
+            "dr",
+            "UL",
+            "\\",
+            "DR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dr",
+            "dl",
+            "UR",
+            "/",
+            "DL",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "DR",
+            "UR",
+            "dl",
+            "\\",
+            "ur",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DL",
+            "DR",
+            "ul",
+            "/",
+            "dr",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "UL",
+            "DL",
+            "ur",
+            "\\",
+            "dl",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UR",
+            "UL",
+            "dr",
+            "/",
+            "ul",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "class": 46,
+      "conditions": [
+        "c = d",
+        "UR to U = L + r"
+      ],
+      "best_pin_order": [
+        "ur",
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "R"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "L",
+            "UL",
+            "\\",
+            "DR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "U",
+            "UR",
+            "/",
+            "DL",
+            "D"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "R",
+            "DR",
+            "\\",
+            "UL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "D",
+            "DL",
+            "/",
+            "UR",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "L",
+            "ur",
+            "\\",
+            "dl",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "U",
+            "dr",
+            "/",
+            "ul",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "R",
+            "dl",
+            "\\",
+            "ur",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "D",
+            "ul",
+            "/",
+            "dr",
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "class": 32,
+      "conditions": [
+        "L = U",
+        "c to r = l to u"
+      ],
+      "best_pin_order": [
+        "ur",
+        "ul",
+        "DR",
+        "\\",
+        "UL",
+        "U"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "ul",
+            "DR",
+            "\\",
+            "UL",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "ur",
+            "DL",
+            "/",
+            "UR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "dr",
+            "UL",
+            "\\",
+            "DR",
+            "D"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "dl",
+            "UR",
+            "/",
+            "DL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "UR",
+            "dl",
+            "\\",
+            "ur",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "DR",
+            "ul",
+            "/",
+            "dr",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "DL",
+            "ur",
+            "\\",
+            "dl",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "UL",
+            "dr",
+            "/",
+            "ul",
+            "R"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "class": 29,
+      "conditions": [
+        "U to R = C to D",
+        "d = c"
+      ],
+      "best_pin_order": [
+        "ur",
+        "\\",
+        "UL",
+        "DL",
+        "ul",
+        "R"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "\\",
+            "UL",
+            "DL",
+            "ul",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "/",
+            "UR",
+            "UL",
+            "ur",
+            "D"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "\\",
+            "DR",
+            "UR",
+            "dr",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "/",
+            "DL",
+            "DR",
+            "dl",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "\\",
+            "ur",
+            "dr",
+            "UR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "/",
+            "dr",
+            "dl",
+            "DR",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "\\",
+            "dl",
+            "ul",
+            "DL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "/",
+            "ul",
+            "ur",
+            "UL",
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "class": 13,
+      "conditions": [
+        "U = C",
+        "l = u"
+      ],
+      "best_pin_order": [
+        "ur",
+        "\\",
+        "UL",
+        "U",
+        "UR",
+        "R"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "\\",
+            "UL",
+            "U",
+            "UR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "/",
+            "UR",
+            "R",
+            "DR",
+            "D"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "\\",
+            "DR",
+            "D",
+            "DL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "/",
+            "DL",
+            "L",
+            "UL",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "\\",
+            "ur",
+            "D",
+            "ul",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "/",
+            "dr",
+            "L",
+            "ur",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "\\",
+            "dl",
+            "U",
+            "dr",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "/",
+            "ul",
+            "R",
+            "dl",
+            "U"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "class": 30,
+      "conditions": [
+        "d = l",
+        "U = C"
+      ],
+      "best_pin_order": [
+        "dr",
+        "/",
+        "ul",
+        "R",
+        "UR",
+        "UL"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "dr",
+            "/",
+            "ul",
+            "R",
+            "UR",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dl",
+            "\\",
+            "ur",
+            "D",
+            "DR",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "ul",
+            "/",
+            "dr",
+            "L",
+            "DL",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ur",
+            "\\",
+            "dl",
+            "U",
+            "UL",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "DL",
+            "/",
+            "UR",
+            "R",
+            "ul",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UL",
+            "\\",
+            "DR",
+            "D",
+            "ur",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "UR",
+            "/",
+            "DL",
+            "L",
+            "dr",
+            "dl"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DR",
+            "\\",
+            "UL",
+            "U",
+            "dl",
+            "ul"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "class": 26,
+      "conditions": [
+        "U to L = C to D",
+        "d = c"
+      ],
+      "best_pin_order": [
+        "ul",
+        "/",
+        "UR",
+        "DR",
+        "ur",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "/",
+            "UR",
+            "DR",
+            "ur",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "\\",
+            "DR",
+            "DL",
+            "dr",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "/",
+            "DL",
+            "UL",
+            "dl",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "\\",
+            "UL",
+            "UR",
+            "ul",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "/",
+            "ul",
+            "dl",
+            "UL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "\\",
+            "ur",
+            "ul",
+            "UR",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "/",
+            "dr",
+            "ur",
+            "DR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "\\",
+            "dl",
+            "dr",
+            "DL",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "class": 25,
+      "conditions": [
+        "U = C",
+        "d = r"
+      ],
+      "best_pin_order": [
+        "dl",
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "UR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "dl",
+            "\\",
+            "ur",
+            "L",
+            "UL",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ul",
+            "/",
+            "dr",
+            "U",
+            "UR",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "ur",
+            "\\",
+            "dl",
+            "R",
+            "DR",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dr",
+            "/",
+            "ul",
+            "D",
+            "DL",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "DR",
+            "\\",
+            "UL",
+            "L",
+            "ur",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DL",
+            "/",
+            "UR",
+            "U",
+            "dr",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "UL",
+            "\\",
+            "DR",
+            "R",
+            "dl",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UR",
+            "/",
+            "DL",
+            "D",
+            "ul",
+            "dl"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "class": 47,
+      "conditions": [
+        "U = L",
+        "d = r"
+      ],
+      "best_pin_order": [
+        "dl",
+        "UL",
+        "L",
+        "ur",
+        "\\",
+        "DR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "dl",
+            "UL",
+            "L",
+            "ur",
+            "\\",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ul",
+            "UR",
+            "U",
+            "dr",
+            "/",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "ur",
+            "DR",
+            "R",
+            "dl",
+            "\\",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dr",
+            "DL",
+            "D",
+            "ul",
+            "/",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "DR",
+            "ur",
+            "L",
+            "UL",
+            "\\",
+            "dl"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DL",
+            "dr",
+            "U",
+            "UR",
+            "/",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "UL",
+            "dl",
+            "R",
+            "DR",
+            "\\",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UR",
+            "ul",
+            "D",
+            "DL",
+            "/",
+            "dr"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "class": 11,
+      "conditions": [
+        "U = C",
+        "r = u"
+      ],
+      "best_pin_order": [
+        "ul",
+        "/",
+        "UR",
+        "U",
+        "UL",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "/",
+            "UR",
+            "U",
+            "UL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "\\",
+            "DR",
+            "R",
+            "UR",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "/",
+            "DL",
+            "D",
+            "DR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "\\",
+            "UL",
+            "L",
+            "DL",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "/",
+            "ul",
+            "D",
+            "ur",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "\\",
+            "ur",
+            "L",
+            "dr",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "/",
+            "dr",
+            "U",
+            "dl",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "\\",
+            "dl",
+            "R",
+            "ul",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "class": 3,
+      "conditions": [
+        "d = c",
+        "r = u"
+      ],
+      "best_pin_order": [
+        "ul",
+        "UR",
+        "/",
+        "DL",
+        "L",
+        "UL"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "UR",
+            "/",
+            "DL",
+            "L",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "DR",
+            "\\",
+            "UL",
+            "U",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "DL",
+            "/",
+            "UR",
+            "R",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "UL",
+            "\\",
+            "DR",
+            "D",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "ul",
+            "/",
+            "dr",
+            "L",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "ur",
+            "\\",
+            "dl",
+            "U",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "dr",
+            "/",
+            "ul",
+            "R",
+            "dl"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "dl",
+            "\\",
+            "ur",
+            "D",
+            "ul"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "class": 42,
+      "conditions": [
+        "L = D",
+        "r = u"
+      ],
+      "best_pin_order": [
+        "dr",
+        "L",
+        "DL",
+        "UR",
+        "/",
+        "ul"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "dr",
+            "L",
+            "DL",
+            "UR",
+            "/",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dl",
+            "U",
+            "UL",
+            "DR",
+            "\\",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "ul",
+            "R",
+            "UR",
+            "DL",
+            "/",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ur",
+            "D",
+            "DR",
+            "UL",
+            "\\",
+            "dl"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "DL",
+            "L",
+            "dr",
+            "ul",
+            "/",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UL",
+            "U",
+            "dl",
+            "ur",
+            "\\",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "UR",
+            "R",
+            "ul",
+            "dr",
+            "/",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DR",
+            "D",
+            "ur",
+            "dl",
+            "\\",
+            "UL"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "class": 8,
+      "conditions": [
+        "C = D",
+        "d = c"
+      ],
+      "best_pin_order": [
+        "ul",
+        "R",
+        "DR",
+        "\\",
+        "ur",
+        "L"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "R",
+            "DR",
+            "\\",
+            "ur",
+            "L"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "D",
+            "DL",
+            "/",
+            "dr",
+            "U"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "L",
+            "UL",
+            "\\",
+            "dl",
+            "R"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "U",
+            "UR",
+            "/",
+            "ul",
+            "D"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "R",
+            "dl",
+            "\\",
+            "UL",
+            "L"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "D",
+            "ul",
+            "/",
+            "UR",
+            "U"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "L",
+            "ur",
+            "\\",
+            "DR",
+            "R"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "U",
+            "dr",
+            "/",
+            "DL",
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "class": 1,
+      "conditions": [
+        "d = r",
+        "d = c"
+      ],
+      "best_pin_order": [
+        "ur",
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "UR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ur",
+            "L",
+            "UL",
+            "\\",
+            "DR",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "dr",
+            "U",
+            "UR",
+            "/",
+            "DL",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dl",
+            "R",
+            "DR",
+            "\\",
+            "UL",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "ul",
+            "D",
+            "DL",
+            "/",
+            "UR",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UL",
+            "L",
+            "ur",
+            "\\",
+            "dl",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "UR",
+            "U",
+            "dr",
+            "/",
+            "ul",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DR",
+            "R",
+            "dl",
+            "\\",
+            "ur",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "DL",
+            "D",
+            "ul",
+            "/",
+            "dr",
+            "dl"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "class": 2,
+      "conditions": [
+        "d = c",
+        "d = u"
+      ],
+      "best_pin_order": [
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "L",
+            "UL",
+            "\\",
+            "DR",
+            "R",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "U",
+            "UR",
+            "/",
+            "DL",
+            "D",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "R",
+            "DR",
+            "\\",
+            "UL",
+            "L",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "D",
+            "DL",
+            "/",
+            "UR",
+            "U",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "L",
+            "ur",
+            "\\",
+            "dl",
+            "R",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "U",
+            "dr",
+            "/",
+            "ul",
+            "D",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "R",
+            "dl",
+            "\\",
+            "ur",
+            "L",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "D",
+            "ul",
+            "/",
+            "dr",
+            "U",
+            "dl"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "class": 10,
+      "conditions": [
+        "U = C",
+        "r = c"
+      ],
+      "best_pin_order": [
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "U",
+        "UR"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "\\",
+            "ur",
+            "L",
+            "UL",
+            "U",
+            "UR"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "/",
+            "dr",
+            "U",
+            "UR",
+            "R",
+            "DR"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "\\",
+            "dl",
+            "R",
+            "DR",
+            "D",
+            "DL"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "/",
+            "ul",
+            "D",
+            "DL",
+            "L",
+            "UL"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "\\",
+            "UL",
+            "L",
+            "ur",
+            "D",
+            "ul"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "/",
+            "UR",
+            "U",
+            "dr",
+            "L",
+            "ur"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "\\",
+            "DR",
+            "R",
+            "dl",
+            "U",
+            "dr"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "/",
+            "DL",
+            "D",
+            "ul",
+            "R",
+            "dl"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "class": 14,
+      "conditions": [
+        "c = l",
+        "U = C"
+      ],
+      "best_pin_order": [
+        "ul",
+        "R",
+        "UR",
+        "U",
+        "UL",
+        "\\"
+      ],
+      "orientations": [
+        {
+          "orientation": "identity",
+          "pin_order": [
+            "ul",
+            "R",
+            "UR",
+            "U",
+            "UL",
+            "\\"
+          ]
+        },
+        {
+          "orientation": "z",
+          "pin_order": [
+            "ur",
+            "D",
+            "DR",
+            "R",
+            "UR",
+            "/"
+          ]
+        },
+        {
+          "orientation": "z2",
+          "pin_order": [
+            "dr",
+            "L",
+            "DL",
+            "D",
+            "DR",
+            "\\"
+          ]
+        },
+        {
+          "orientation": "z'",
+          "pin_order": [
+            "dl",
+            "U",
+            "UL",
+            "L",
+            "DL",
+            "/"
+          ]
+        },
+        {
+          "orientation": "y2",
+          "pin_order": [
+            "UR",
+            "R",
+            "ul",
+            "D",
+            "ur",
+            "\\"
+          ]
+        },
+        {
+          "orientation": "y2 z",
+          "pin_order": [
+            "DR",
+            "D",
+            "ur",
+            "L",
+            "dr",
+            "/"
+          ]
+        },
+        {
+          "orientation": "y2 z2",
+          "pin_order": [
+            "DL",
+            "L",
+            "dr",
+            "U",
+            "dl",
+            "\\"
+          ]
+        },
+        {
+          "orientation": "y2 z'",
+          "pin_order": [
+            "UL",
+            "U",
+            "dl",
+            "R",
+            "ul",
+            "/"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "description": "Greedy marginal-coverage order for classes with four total condition variables",
+  "all_eight_orientations": true,
+  "coverage_method": "2,000,000 uniformly sampled states; overlaps counted once",
+  "condition_complexity_definition": "sum of nonzero variable terms across both equations; coefficients count once",
+  "class_count": 13,
+  "coverage_percentage": 31.5059,
+  "classes": [
+    {
+      "class": 4,
+      "best_pin_order": [
+        "ur",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "conditions": [
+        "d - c = 0 (mod 12)",
+        "l - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.450262,
+      "step": 1,
+      "marginal_percentage": 5.4637,
+      "cumulative_percentage": 5.4637
+    },
+    {
+      "class": 30,
+      "best_pin_order": [
+        "dr",
+        "/",
+        "ul",
+        "R",
+        "UR",
+        "UL"
+      ],
+      "conditions": [
+        "d - l = 0 (mod 12)",
+        "U - C = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 2,
+      "marginal_percentage": 4.41065,
+      "cumulative_percentage": 9.87435
+    },
+    {
+      "class": 25,
+      "best_pin_order": [
+        "dl",
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "UR"
+      ],
+      "conditions": [
+        "U - C = 0 (mod 12)",
+        "d - r = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 3,
+      "marginal_percentage": 3.7293,
+      "cumulative_percentage": 13.60365
+    },
+    {
+      "class": 13,
+      "best_pin_order": [
+        "ur",
+        "\\",
+        "UL",
+        "U",
+        "UR",
+        "R"
+      ],
+      "conditions": [
+        "U - C = 0 (mod 12)",
+        "l - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 4,
+      "marginal_percentage": 3.1634,
+      "cumulative_percentage": 16.76705
+    },
+    {
+      "class": 11,
+      "best_pin_order": [
+        "ul",
+        "/",
+        "UR",
+        "U",
+        "UL",
+        "L"
+      ],
+      "conditions": [
+        "U - C = 0 (mod 12)",
+        "r - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 5.425007,
+      "step": 5,
+      "marginal_percentage": 2.6845,
+      "cumulative_percentage": 19.45155
+    },
+    {
+      "class": 1,
+      "best_pin_order": [
+        "ur",
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "UR"
+      ],
+      "conditions": [
+        "d - r = 0 (mod 12)",
+        "d - c = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.037156,
+      "step": 6,
+      "marginal_percentage": 2.0554,
+      "cumulative_percentage": 21.50695
+    },
+    {
+      "class": 3,
+      "best_pin_order": [
+        "ul",
+        "UR",
+        "/",
+        "DL",
+        "L",
+        "UL"
+      ],
+      "conditions": [
+        "d - c = 0 (mod 12)",
+        "r - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 6,
+      "intuitive_moves": 9,
+      "standalone_percentage": 5.450262,
+      "step": 7,
+      "marginal_percentage": 2.0464,
+      "cumulative_percentage": 23.55335
+    },
+    {
+      "class": 42,
+      "best_pin_order": [
+        "dr",
+        "L",
+        "DL",
+        "UR",
+        "/",
+        "ul"
+      ],
+      "conditions": [
+        "L - D = 0 (mod 12)",
+        "r - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 2,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748943,
+      "step": 8,
+      "marginal_percentage": 1.6366,
+      "cumulative_percentage": 25.18995
+    },
+    {
+      "class": 2,
+      "best_pin_order": [
+        "L",
+        "UL",
+        "\\",
+        "DR",
+        "R",
+        "UR"
+      ],
+      "conditions": [
+        "d - c = 0 (mod 12)",
+        "d - u = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 9,
+      "marginal_percentage": 1.62115,
+      "cumulative_percentage": 26.8111
+    },
+    {
+      "class": 47,
+      "best_pin_order": [
+        "dl",
+        "UL",
+        "L",
+        "ur",
+        "\\",
+        "DR"
+      ],
+      "conditions": [
+        "U - L = 0 (mod 12)",
+        "d - r = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 2,
+      "transitions": 6,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748943,
+      "step": 10,
+      "marginal_percentage": 1.3265,
+      "cumulative_percentage": 28.1376
+    },
+    {
+      "class": 10,
+      "best_pin_order": [
+        "\\",
+        "ur",
+        "L",
+        "UL",
+        "U",
+        "UR"
+      ],
+      "conditions": [
+        "U - C = 0 (mod 12)",
+        "r - c = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 11,
+      "marginal_percentage": 1.1321,
+      "cumulative_percentage": 29.2697
+    },
+    {
+      "class": 14,
+      "best_pin_order": [
+        "ul",
+        "R",
+        "UR",
+        "U",
+        "UL",
+        "\\"
+      ],
+      "conditions": [
+        "c - l = 0 (mod 12)",
+        "U - C = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 12,
+      "marginal_percentage": 1.12075,
+      "cumulative_percentage": 30.39045
+    },
+    {
+      "class": 8,
+      "best_pin_order": [
+        "ul",
+        "R",
+        "DR",
+        "\\",
+        "ur",
+        "L"
+      ],
+      "conditions": [
+        "C - D = 0 (mod 12)",
+        "d - c = 0 (mod 12)"
+      ],
+      "condition_variable_counts": [
+        2,
+        2
+      ],
+      "total_condition_variables": 4,
+      "d_moves": 1,
+      "transitions": 5,
+      "intuitive_moves": 8,
+      "standalone_percentage": 2.748976,
+      "step": 13,
+      "marginal_percentage": 1.11545,
+      "cumulative_percentage": 31.5059
+    }
+  ]
+}
