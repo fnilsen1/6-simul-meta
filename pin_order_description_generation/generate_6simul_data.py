@@ -13,8 +13,6 @@ def gen_data(pin_order: list[str], include_memo=False, include_all_permutations_
     Set a filename to save to disk. Will store in either json format or as a pickle file (if use_pickle == True).
     """
 
-    # todo: the memo and condition is not dependent on the order, so this
-    # should only be computed once per "pin set".
     memo = None
     conditions = None
     if include_memo:
