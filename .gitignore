@@ -11,7 +11,7 @@ venv/
 .vscode/
 
 # Generated large output
-txt/6_simul_pin_orders.json
+data/6_simul_pin_orders.json
 
 # OS files
 .DS_Store
